@@ -1,5 +1,5 @@
-import React from "react";
-import { Meteors } from "../components/ui/meteors";
+import React from 'react';
+import { Meteors } from '../components/ui/meteors';
 
 export function Meteor() {
   return (
@@ -25,18 +25,21 @@ export function Meteor() {
           </div>
 
           <h1 className="relative z-50 mb-4 text-xl font-bold text-white">
-            Meteors because they&apos;re cool
+            These are my repos with my knowledge based projects
           </h1>
 
           <p className="relative z-50 mb-4 text-base font-normal text-slate-500">
-            I don&apos;t know what to write so I&apos;ll just paste something
-            cool here. One more sentence because lorem ipsum is just
-            unacceptable. Won&apos;t ChatGPT the shit out of this.
+           If you want to see more of my projects, you can visit my GitHub profile. 
+           <br/>
+           <a href="https://github.com/Sanjai-Shaarugesh" target='_blank'>https://github.com/Sanjai-Shaarugesh</a>
+           
           </p>
-
-          <button className="rounded-lg border border-gray-500 px-4 py-1 text-gray-300">
+          
+          <a href="https://github.com/Sanjai-Shaarugesh" target='_blank'>
+            <button className="rounded-lg border border-gray-500 px-4 py-1 text-gray-300">
             Explore
           </button>
+          </a>
 
           {/* Meaty part - Meteor effect */}
           <Meteors number={20} />

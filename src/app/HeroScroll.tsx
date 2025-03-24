@@ -1,14 +1,14 @@
-"use client";
-import React from "react";
-import { ContainerScroll } from "../components/ui/container-scroll-animation";
-import Image from "next/image";
+'use client';
+import React from 'react';
+import { ContainerScroll } from '../components/ui/container-scroll-animation';
+import Image from 'next/image';
 
 type HeroScrollProps = {
   title: string;
   description: string;
 };
 
-export function HeroScroll({title, description}: HeroScrollProps) {
+export function HeroScroll({ title, description }: HeroScrollProps) {
   return (
     <div className="flex flex-col overflow-hidden">
       <ContainerScroll
@@ -17,7 +17,7 @@ export function HeroScroll({title, description}: HeroScrollProps) {
             <h1 className="text-4xl font-semibold text-black dark:text-white">
               {title} <br />
               <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
-               {description}
+                {description}
               </span>
             </h1>
           </>
